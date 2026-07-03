@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bk-navy: #0A2540;
+  --color-bk-sunrise: #E0457B;
+  --color-bk-coral: #FF8966;
+  --color-bk-gold: #FFD166;
+  --color-bk-sky: #4FC3F7;
+  --color-bk-offwhite: #FAF0E6;
+}
+
+@layer base {
+  body {
+    @apply bg-bk-offwhite text-bk-navy font-sans antialiased;
+  }
+}
