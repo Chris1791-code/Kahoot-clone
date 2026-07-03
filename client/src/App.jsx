@@ -6,7 +6,7 @@ import { io } from 'socket.io-client';
 import { useEffect, useState } from 'react';
 
 // Kết nối tới server Socket.io (chạy ở cổng 3001)
-const socket = io('http://localhost:3001');
+const socket = io('https://kahoot-clone-ozy2.onrender.com/');
 
 function App() {
   const [isConnected, setIsConnected] = useState(socket.connected);
